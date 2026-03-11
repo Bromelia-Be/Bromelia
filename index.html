@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Victor+Mono:wght@400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barriecito:wght@400&display=swap" rel="stylesheet">
+  <title>Bromelia</title>
+
+</head>
+
+<body>
+
+  <body>
+    <header>
+      <a id="logo" href="index.html">
+        <img src="img/logo.png" alt="Bromelia Logo" class="logo">
+      </a>
+      <span onclick="openNav()"><img src="img/burger.png" alt="Burger Menu" class="burger"></span>
+    </header>
+
+    <!-- Hintergrund drchsichtig, funktioniert als button -->
+    <div id="overlayBackground" class="overlay-background" onclick="closeNav()"></div>
+
+    <!-- The overlay -->
+    <div id="myNav" class="overlay">
+      <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="index.html" class="menu-item">
+          <span class="menu-text">Über uns</span>
+          <img src="img/ueberuns_menu.png" alt="Schwarz-weisse schrifft Über uns" class="menu-image">
+        </a>
+        <a href="events.html" class="menu-item">
+          <span class="menu-text">Events</span>
+          <img src="img/events_menu.png" alt="Schwarz-weisse Schrift Events" class="menu-image">
+        </a>
+        <a href="zugaenglichkeit.html" class="menu-item">
+          <span class="menu-text">Zugänglichkeit</span>
+          <img src="img/zugaenglichkeit_menu.png" alt="Schwarz-weisse Schrift Zugänglichkeit" class="menu-image">
+        </a>
+      </div>
+    </div>
+
+
+    <section class="absatz">
+      <img src="img/bromeliateam.png" alt="Schwarz-weiss-Illustration von fünf Menschen, die gemeinsam an einer Anrichte kochen." class="absatz_links-img">
+      <p>
+        Bromelia ist ein Verein von und für queere Menschen. Gegründet wurde Bromelia im Jahr 2022, mit dem Ziel, einen Raum zu schaffen, in dem Menschen sich vernetzen, austauschen und erholen
+        können.
+      </p>
+    </section>
+
+    <section class="absatz">
+      <p>
+        Immer wieder lädt Bromelia zum Abendessen ein, mit drei veganen und glutenfreien Gängen. Ausserdem stehen Konzerte und andere Events auf dem Programm.
+      </p>
+      <img src="img/Stuhl.png" alt="Schwarz-weiss-Illustration eines Stuhls." class="absatz_rechts-img">
+    </section>
+
+    <section class="absatz">
+      <img src="img/tasse.png" alt="Schwarz-weiss-Illustration einer Kaffeetasse mit Unterteller." class="absatz_links-img">
+      <p>
+        Für die Zukunft wünschen wir uns einen eigenen Ort, an dem wir uns fest einrichten können und der regelmässig für Queers die Türen öffnet. Wer weiss, vielleicht dürfen wir euch ja schon bald
+        im Café
+        Bromelia begrüssen! </p>
+    </section>
+
+    <footer>
+      <a id="mail" href="mailto:bromelia@immerda.ch"><img src="img/MailTo.png" alt="Schwarze Sprechblase mit weissem Mail Icon"></a>
+      <a id="instagram" href="https://www.instagram.com/bromelia.be/"><img src="img/Instagram.png" alt="Schwarze Sprechblase mit weissem Instagram Icon"></a>
+      <a id="impressum" href="impressum.html">Impressum</a>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+  </body>
+
+</html>

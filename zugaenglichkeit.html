@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Victor+Mono:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito:wght@400&display=swap" rel="stylesheet">
+    <title>Bromelia</title>
+
+</head>
+
+<body>
+
+    <body>
+        <header>
+            <a id="logo" href="index.html">
+                <img src="img/logo.png" alt="Bromelia Logo" class="logo">
+            </a>
+            <span onclick="openNav()"><img src="img/burger.png" alt="Burger Menu" class="burger"></span>
+        </header>
+
+        <!-- Hintergrund drchsichtig, funktioniert als button -->
+        <div id="overlayBackground" class="overlay-background" onclick="closeNav()"></div>
+
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+            <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="index.html" class="menu-item">
+                    <span class="menu-text">Über uns</span>
+                    <img src="img/ueberuns_menu.png" alt="Schwarz-weisse schrifft Über uns" class="menu-image">
+                </a>
+                <a href="events.html" class="menu-item">
+                    <span class="menu-text">Events</span>
+                    <img src="img/events_menu.png" alt="Schwarz-weisse Schrift Events" class="menu-image">
+                </a>
+                <a href="zugaenglichkeit.html" class="menu-item">
+                    <span class="menu-text">Zugänglichkeit</span>
+                    <img src="img/zugaenglichkeit_menu.png" alt="Schwarz-weisse Schrift Zugänglichkeit" class="menu-image">
+                </a>
+            </div>
+        </div>
+
+        <section class="ueberschrift" id="ueberschrift_zugaenglichkeit">
+            <img src="img/zugaenglichkeit.png" alt="Schwarz-weisse Schrift zugaenglichkeit" class="ueberschrift-img">
+        </section>
+
+        <section class="absatz">
+            <p>
+                Wir streben an, unsere Veranstaltungen so zugänglich wie möglich zu gestalten. Da unsere Events jedoch immerwieder an verschiedenen Orten stattfinden, variiert die Zugänglichkeit je
+                nach Location. Unten findest du aber einige Informationen, die für all unserer Events gelten.
+                Wenn du Fragen oder Anregungen zur Zugänglichkeit eines bestimmten Events hast oder einen Audiobeschrieb des Veranstaltungsort möchtest, melde dich gerne jederzeit bei un auf Instagram
+                oder schreibe uns eine Mail.
+            </p>
+            <img src="img/rollstuhl.png" alt="Schwarz-weiss-Illustration eines Rollstuhls" class="absatz_rechts-img">
+        </section>
+
+        <div class="layout_zugaenglichkeit">
+            <div class="text_zugaenglichkeit">
+                <h1>Sprachliche Zugänglichkeit</1>
+                    <p>
+                        Das kurze Awareness Briefing in Deutscher oder Englischer Sprache sein. <br>
+                        Das Awareness Konzept der Veranstaltung wird vor Ort ausgedruckt in Deutscher und Englischer Schriftsprache ausgehängt sein.
+                    </p>
+            </div>
+            <img src="img/deutsch.png" alt="Schwarz-weisse Illustration einer Sprechblase mit Text DE " class="zugaenglichkeit-img">
+        </div>
+
+        <div class="layout_zugaenglichkeit">
+
+            <div class="text_zugaenglichkeit">
+                <h1>Infektionskrankheiten</1>
+
+                    <p>
+                        Fühlst du dich krank, unwohl oder hast du Fieber? <br>
+                        <br>
+
+                        Bleib bitte solidarisch zuhause und komm an den nächsten Event.
+                    </p>
+            </div>
+            <img src="img/fiebermesser.png" alt="Schwarz-weiss-Illustration eines Fiebermessers, das drei Fragezeichen anzeigt." class="zugaenglichkeit-img">
+
+        </div>
+
+        <div class="layout_zugaenglichkeit">
+
+            <div class="text_zugaenglichkeit">
+                <h1>Sonstige Informationen</1>
+
+                    <p>
+                        An den meisten Bromelia Events kann mit Bargeld und Twint bezahlt werden. (Bei Partys kann es sein, dass nur Barzahlung möglich ist.)<br>
+                        <br>
+
+                        Der Eintrittspreis soll kein Hindernis für dein Kommen darstellen, weshalb wir mit einem Richtpreis arbeiten. Sprich das Eingangs Personal darauf an. Bitte erlaube dir, keinen
+                        Eintritt zu zahlen,
+                        wenn du nicht kannst. Wir freuen uns aber auch, wenn du mehr bezahlst, falls du es dir leisten kannst. So können wir Menschen mit weniger Geld den Eintritt ermöglichen.<br>
+                        <br>
+
+                        Drinnen ist das Rauchen nie erlaubt, draussen gibt es meistens einen markierten Bereich dafür. <br>
+                        <br>
+
+                        Meistens haben wir eine unbetreute Garderobe vor Ort.
+                        Für Gegenstände in der Garderobe übernehmen wir keine Haftung. <br>
+                        <br>
+
+                        Wir versuchen immer, vegane und glutenfreie Speisen anzubieten. Falls du Allergien oder Unverträglichkeiten hast, melde dich gerne im Voraus bei uns. Uns ist es zudem wichtig
+                        zu
+                        erwähnen, dass wir nicht garantieren können, dass keine Kreuzkontaminationen stattfinden.
+                    </p>
+
+            </div>
+            <img src="img/kleiderbuegel.png" alt="Schwarz-weiss-Illustration eines Kleiderbügels." class="zugaenglichkeit-img">
+
+
+        </div>
+
+        <footer>
+            <a id="mail" href="mailto:bromelia@immerda.ch"><img src="img/MailTo.png" alt="Schwarze Sprechblase mit weissem Mail Icon"></a>
+            <a id="instagram" href="https://www.instagram.com/bromelia.be/"><img src="img/Instagram.png" alt="Schwarze Sprechblase mit weissem Instagram Icon"></a>
+            <a id="impressum" href="impressum.html">Impressum</a>
+        </footer>
+
+
+        <script src="js/script.js"></script>
+    </body>
+
+</html>
